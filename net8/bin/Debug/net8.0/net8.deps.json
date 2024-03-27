@@ -1,0 +1,203 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "net8/1.0.0": {
+        "dependencies": {
+          "MsgReader": "5.5.5"
+        },
+        "runtime": {
+          "net8.dll": {}
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics/8.0.3": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Maui.Graphics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "8.0.1.2"
+          }
+        }
+      },
+      "MsgReader/5.5.5": {
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+          "Microsoft.Maui.Graphics": "8.0.3",
+          "Newtonsoft.Json": "13.0.3",
+          "OpenMcdf": "2.3.0",
+          "RtfPipe": "2.0.7677.4303",
+          "System.Security.Cryptography.Pkcs": "8.0.0",
+          "UTF.Unknown": "2.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MsgReader.dll": {
+            "assemblyVersion": "5.5.5.0",
+            "fileVersion": "5.5.5.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/da/MsgReader.resources.dll": {
+            "locale": "da"
+          },
+          "lib/netstandard2.1/de/MsgReader.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/MsgReader.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/MsgReader.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/nl/MsgReader.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.1/pt-BR/MsgReader.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/pt/MsgReader.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netstandard2.1/zh-CN/MsgReader.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/netstandard2.1/zh-TW/MsgReader.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OpenMcdf/2.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/OpenMcdf.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "RtfPipe/2.0.7677.4303": {
+        "runtime": {
+          "lib/netstandard2.0/RtfPipe.dll": {
+            "assemblyVersion": "2.0.7677.4303",
+            "fileVersion": "2.0.7677.4303"
+          }
+        }
+      },
+      "System.Formats.Asn1/8.0.0": {},
+      "System.Security.Cryptography.Pkcs/8.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "UTF.Unknown/2.5.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/UtfUnknown.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.664.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "net8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irv0HuqoH8Ig5i2fO+8dmDNdFdsrO+DoQcedwIlb810qpZHBNQHZLW7C/AHBQDgLLpw2T96vmMAy/aE4Yj55Sg==",
+      "path": "microsoft.io.recyclablememorystream/3.0.0",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RWXI/VKfxRljnzME5v2TgiT5N/Q/phpaCqFnz3V0NSAGey5GAPwzuH3W5ryU0fVgds9QPgukDeuGRn7hTD/MWw==",
+      "path": "microsoft.maui.graphics/8.0.3",
+      "hashPath": "microsoft.maui.graphics.8.0.3.nupkg.sha512"
+    },
+    "MsgReader/5.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gp7yUZjNT40rF8tw+czAgb+IfXV0oxYsngKtUnL2d9Va5EII0qgwTxXApPdPNS+oXJ8wAww8ns7nyvdPccN9mA==",
+      "path": "msgreader/5.5.5",
+      "hashPath": "msgreader.5.5.5.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OpenMcdf/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4KVqjDt8av6LiscYlIOKdWQe9ILoMIFs1YI/Le11wqR7SA32IWumqxagu7OzyRCyDZ2zL01WanHMycCmOnDuVw==",
+      "path": "openmcdf/2.3.0",
+      "hashPath": "openmcdf.2.3.0.nupkg.sha512"
+    },
+    "RtfPipe/2.0.7677.4303": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ek6wuC69GYVJr0b/C5mcgbFUHPLL11iAbUFqQphdBaqSoEjOdSB/HWCID5nneA5exM88UZzOTCJCMpftDYnCZA==",
+      "path": "rtfpipe/2.0.7677.4303",
+      "hashPath": "rtfpipe.2.0.7677.4303.nupkg.sha512"
+    },
+    "System.Formats.Asn1/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AJukBuLoe3QeAF+mfaRKQb2dgyrvt340iMBHYv+VdBzCUM06IxGlvl0o/uPOS7lHnXPN6u8fFRHSHudx5aTi8w==",
+      "path": "system.formats.asn1/8.0.0",
+      "hashPath": "system.formats.asn1.8.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ULmp3xoOwNYjOYp4JZ2NK/6NdTgiN1GQXzVVN1njQ7LOZ0d0B9vyMnhyqbIi9Qw4JXj1JgCsitkTShboHRx7Eg==",
+      "path": "system.security.cryptography.pkcs/8.0.0",
+      "hashPath": "system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
+    },
+    "UTF.Unknown/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KhZuBaO55PIu6m4bkij3ZQL8qwVyofwFpNnyguXFjwxJlbfYX+dRn8tGy/PjTK6I4UJm8ujkJFvBLaV7MKltTA==",
+      "path": "utf.unknown/2.5.1",
+      "hashPath": "utf.unknown.2.5.1.nupkg.sha512"
+    }
+  }
+}
